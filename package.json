@@ -1,0 +1,19 @@
+{
+  "name": "tenantbase",
+  "version": "1.0.0",
+  "description": "TenantBase is a scalable, multi-tenant headless CMS designed to serve multiple organizations from a single database instance. Built with Express.js and Prisma, it leverages PostgreSQL's JSONB capabilities to allow tenants to define custom, shape-shifting content schemas while ensuring strict data privacy through row-level security middleware.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/express": "^5.0.6",
+    "dotenv": "^18.0.7",
+    "express": "^5.3.0",
+    "nodemon": "^3.1.14",
+    "ts-node": "^10.9.2",
+    "typescript": "^7.0.2"
+  }
+}
